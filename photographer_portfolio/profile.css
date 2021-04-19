@@ -1,0 +1,396 @@
+* {
+    margin: 0px;
+    padding-right: 0px;
+}
+
+body {
+    background-color: rgb(43, 43, 43);
+    font-size: 16px;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+
+.meubaricon {
+    display: none;
+}
+
+.leftview {
+    height: 100vh;
+    width: 240px;
+    background-color: rgb(37, 37, 37);
+    z-index: 1;
+    box-shadow: 3px 0px 3px rgba(32, 32, 32, 0.582);
+    position: relative;
+    left: -300px;
+    transform: translateX(300px);
+    transition: all 1s ease-out;
+}
+
+.mostrate h1 {
+    color: rgb(255, 148, 17);
+    font-family: 'Calligraffitti', cursive;
+    position: relative;
+    top: 10px;
+    left: 4px;
+    margin-left: 9px;
+}
+
+.mostrate p {
+    color: rgba(255, 255, 255, 0.753);
+    font-size: 10px;
+    position: relative;
+    letter-spacing: 1px;
+    top: 0px;
+    left: 5px;
+    font-family: cursive;
+    margin-left: 9px;
+}
+
+.linktype {
+    position: relative;
+    display: inline-block;
+    top: 30px;
+}
+
+.linktype a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.945);
+    vertical-align: 3px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 6px;
+}
+
+.contact {
+    position: absolute;
+    display: block;
+    top: 190px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.945);
+    vertical-align: 2px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 6px;
+}
+
+.contact .fa-arrow-right {
+    color: rgb(255, 148, 17);
+    position: relative;
+    left: 0px;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move {
+    0% {
+        left: 0px;
+    }
+    50% {
+        left: -8px;
+    }
+    100% {
+        left: 0px;
+    }
+}
+
+.contact .fa-arrow-left {
+    color: rgb(255, 148, 17);
+    position: relative;
+    left: 0px;
+    animation-name: move2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move2 {
+    0% {
+        left: 0px;
+    }
+    50% {
+        left: 8px;
+    }
+    100% {
+        left: 0px;
+    }
+}
+
+.linktype a:hover,
+.contact a:hover {
+    color: rgb(255, 148, 17);
+}
+
+.tweet {
+    position: relative;
+    top: 170px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tweet h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-left: 6px;
+}
+
+.tweet p {
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800px;
+    color: rgba(255, 255, 255, 0.65);
+    word-spacing: 1.5px;
+    letter-spacing: 0.5px;
+    vertical-align: 2px;
+    margin-left: 6px;
+}
+
+.tweet span {
+    color: rgba(255, 255, 255, 0.25);
+}
+
+.social {
+    color: rgba(255, 255, 255, 0.836);
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400px;
+    position: relative;
+    top: 200px;
+    left: 2px;
+    z-index: 1;
+    margin-left: 6px;
+}
+
+.social span {
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    top: 6px;
+    left: 3px;
+}
+
+.social span:hover {
+    color: rgb(255, 148, 17);
+}
+
+.rights {
+    position: relative;
+    top: 250px;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.863);
+    vertical-align: 12px;
+    letter-spacing: 0.3px;
+    margin-left: 6px;
+}
+
+.fashion {
+    background-color: rgb(43, 43, 43);
+    position: absolute;
+    left: 17vw;
+    top: 0px;
+    padding: 30px 9px;
+    overflow: hidden;
+}
+
+.fashion img {
+    width: 1000px;
+    position: relative;
+    left: 150px;
+    top: 100px;
+}
+
+.aboutme {
+    height: 700px;
+    width: 1200px;
+    background-color: rgb(43, 43, 43);
+    position: absolute;
+    left: 17vw;
+    top: -800px;
+    padding: 30px 9px;
+    display: all;
+    transition: all 1.2s ease-out;
+}
+
+.headingme {
+    position: relative;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+.headingme h1 {
+    color: rgba(255, 148, 17, 0.95);
+    transform: scaleY(1.2);
+    word-spacing: 3px;
+}
+
+.headingme h2 {
+    color: rgba(255, 255, 255, 9.5);
+    transform: scaleY(1.5);
+    font-weight: 600;
+    word-spacing: 3px;
+}
+
+.image img {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    position: relative;
+    float: left;
+    top: 30px;
+}
+
+.description {
+    color: rgba(255, 255, 255, 0.7);
+    position: relative;
+    top: 30px;
+    left: 30px;
+    width: 1200px;
+}
+
+.description p {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    word-spacing: 0.5px;
+}
+
+.description .about {
+    position: relative;
+    word-spacing: 0px;
+    top: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(255, 148, 17, 0.7);
+    font-size: 15px;
+    transform: scaleY(1.3);
+    line-height: 15px;
+}
+
+.description .des {
+    position: relative;
+    top: 85px;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.des em {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.des::before {
+    content: "- ";
+}
+
+.skills {
+    position: relative;
+    top: 180px;
+    left: -280px;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 9.5);
+    transform: scaleY(1.5);
+    font-weight: 600;
+    word-spacing: 3px;
+}
+
+.progress-1 {
+    position: relative;
+    top: 200px;
+    left: -280px;
+    display: block;
+}
+
+.progress-1::before {
+    content: "Portraits";
+    position: absolute;
+    color: rgb(43, 43, 43);
+    font-size: 20px;
+    top: 13px;
+    margin-left: 20px;
+}
+
+.progress-1::after {
+    content: "89%";
+    position: absolute;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+    top: 15px;
+    margin-left: -50px;
+}
+
+.progress-2 {
+    position: relative;
+    top: 220px;
+    left: -280px;
+    display: block;
+}
+
+.progress-2::before {
+    content: "Editorial";
+    position: absolute;
+    color: rgb(43, 43, 43);
+    font-size: 20px;
+    top: 13px;
+    margin-left: 20px;
+}
+
+.progress-2::after {
+    content: "56%";
+    position: absolute;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+    top: 15px;
+    margin-left: -50px;
+}
+
+.progress-3 {
+    position: relative;
+    top: 240px;
+    left: 20px;
+    display: block;
+}
+
+.progress-3::before {
+    content: "Fashion";
+    position: absolute;
+    color: rgb(43, 43, 43);
+    font-size: 20px;
+    top: 13px;
+    margin-left: 20px;
+}
+
+.progress-3::after {
+    content: "72%";
+    position: absolute;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+    top: 15px;
+    margin-left: -50px;
+}
+
+progress {
+    -webkit-appearance: none;
+    width: 75%;
+    height: 50px;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+progress::-webkit-progress-bar {
+    background-color: rgb(37, 37, 37);
+}
+
+progress::-webkit-progress-value {
+    background-color: rgba(255, 148, 17, 0.95);
+    border-radius: 10px;
+}
+
+@media (max-width: 500px) {
+    body {
+        display: none;
+    }
+}

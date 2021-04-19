@@ -1,0 +1,52 @@
+body {
+    font-style: italic;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.945);
+    font-family: sans-serif;
+    background-color: rgb(43, 43, 43);
+}
+
+h1 {
+    font-family: sans-serif;
+    color: rgb(255, 148, 17);
+    margin-bottom: 50px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+    border: 2px solid white;
+    padding: 10px 14px;
+    border-radius: 10px;
+    position: relative;
+    display: block;
+    width: 300px;
+    left: calc(50% - 150px);
+    background-color: rgba(255, 148, 17, 0.78);
+    z-index: 3;
+    box-shadow: 0px 0px 28px black;
+}
+
+p {
+    font-size: 36px;
+}
+
+em {
+    color: aqua;
+    display: block;
+    position: relative;
+    padding-top: 30px;
+    font-size: 14px;
+}
+
+.c {
+    color: rgb(255, 255, 255);
+    display: inline;
+}
+
+.d {
+    display: inline;
+    color: rgb(255, 0, 0);
+    font-size: 900;
+}
