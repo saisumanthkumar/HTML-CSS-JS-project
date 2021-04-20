@@ -82,7 +82,6 @@ button {
 .hi p {
     position: relative;
     width: 150px;
-    top: -20px;
     left: calc(25px);
     margin: 10px 0px;
     padding: 5px;
@@ -92,12 +91,16 @@ button {
 @media (max-width:500px) {
     .history {
         left: calc(50% - 115px);
-        top: 40%;
+        top: 20px;
     }
     .main {
-        top: 30px;
+        top: 400px;
     }
     button {
-        top: 150px;
+        top: 530px;
     }
+}
+
+.hi p:nth-last-child(1) {
+    top: -20px;
 }
