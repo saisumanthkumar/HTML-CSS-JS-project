@@ -32,6 +32,8 @@ function colorget() {
     var text = document.createTextNode(color)
     p.appendChild(text)
     p.style.backgroundColor = color;
-    his.appendChild(p)
+    var firstchild = his.firstChild
+
+    his.insertBefore(p, firstchild)
 
 }
